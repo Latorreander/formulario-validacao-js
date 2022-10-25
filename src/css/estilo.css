@@ -1,0 +1,88 @@
+main{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagem/bg-repeat.jpg');
+    padding: 12px 50px; 
+}
+
+.formulario .texto h1{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.formulario .texto p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.formulario .dados-pessoais{
+    margin-left: 70px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.formulario .dados-pessoais .campo input{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.formulario .dados-pessoais .campo{
+    margin-bottom: 15px;
+}
+
+.formulario .dados-pessoais .campo textarea{
+    width: 298px;
+}
+
+.formulario .dados-pessoais .legenda{
+    font-size: 15px;
+    font-weight: 400; 
+}
+
+.dados-pessoais .botao .botao-enviar{
+    width: 298px;
+    height: 40px;
+    border-radius: 5px;
+    background:  #3CCC87;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+  .formulario .frase-alerta{
+    font-size: 10px;
+    font-weight: 400;
+    color: #f52e2e;
+    display: none;
+}
+
+ .formulario .frase-alerta.ativo{
+    display: block;
+}
+
+
+.area.preenchido { 
+    border: solid #00C22B 2px;
+    
+}
+
+.area.nao-preenchido { 
+    border: solid #F52E2E
+    2px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário com Validação</title>
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilo.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="formulario">
+        <div class="texto">
+          <h1>FICOU COM DÚVIDA?<br />NOS MANDE UMA MENSAGEM!</h1>
+          <p>
+            caso tenha ficado com qualquer dúvida<br />
+            basta nos mandar uma mensagem e<br />
+            entraremos em contato em menos de 24h.
+          </p>
+        </div>
+
+        <div class="dados-pessoais">
+          <form action=""  name="formulario" id="formulario">
+            <div class="campo nome">
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Nome completo*"
+                class="area"
+              />
+              <span class="frase-alerta">campo obrigatório</span>
+            </div>
+            <div class="campo email">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email*"
+                class="area" 
+              />
+              <span class="frase-alerta">campo obrigatório</span>
+            </div>
+
+            <div class="campo telefone">
+              <input
+                type="number"
+                id="telefone"
+                name="telefone"
+                placeholder="Telefone*"
+                class="area"
+              />
+              <span class="frase-alerta">campo obrigatório</span>
+            </div>
+            <div class="campo mensagem">
+              <textarea
+                name="mensagem"
+                id="msg"
+                cols="30"
+                rows="10"
+                placeholder="Mensagem*"
+                class="area"
+              ></textarea>
+              <span class="frase-alerta">campo obrigatório</span>
+            </div>
+            <span class="legenda">*campos obrigatórios</span>
+            <div class="botao">
+              <button class="botao-enviar" type="button" id="botao">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>

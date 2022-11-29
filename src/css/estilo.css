@@ -46,10 +46,6 @@ main{
     margin-bottom: 15px;
 }
 
-.formulario .dados-pessoais .campo.mensagem{
-    display: flex;
-}
-
 .formulario .dados-pessoais .campo textarea{
     width: 100%;
     resize: none;

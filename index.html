@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário com Validação</title>
-
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/estilo.css" />
+    <link rel="stylesheet" href="/src/css/responsivo.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,30 +35,24 @@
                 type="text"
                 id="nome"
                 name="nome"
-                placeholder="Nome completo*"
-                class="area"
-              />
+                placeholder="Nome completo *" class="area"/>
               <span class="frase-alerta">campo obrigatório</span>
             </div>
             <div class="campo email">
               <input
-                type="email"
+                type="email" 
                 id="email"
                 name="email"
-                placeholder="Email*"
-                class="area" 
-              />
+                placeholder="E-mail *" class="area"/>
               <span class="frase-alerta">campo obrigatório</span>
             </div>
 
             <div class="campo telefone">
               <input
-                type="number"
+                type="number" 
                 id="telefone"
                 name="telefone"
-                placeholder="Telefone*"
-                class="area"
-              />
+                placeholder="Telefone *" class="area"/>
               <span class="frase-alerta">campo obrigatório</span>
             </div>
             <div class="campo mensagem">
@@ -67,12 +61,10 @@
                 id="msg"
                 cols="30"
                 rows="10"
-                placeholder="Mensagem*"
-                class="area"
-              ></textarea>
+                placeholder="Mensagem *" class="area"></textarea>
               <span class="frase-alerta">campo obrigatório</span>
             </div>
-            <span class="legenda">*campos obrigatórios</span>
+            <span class="legenda">* Campos Obrigatórios</span>
             <div class="botao">
               <button class="botao-enviar" type="button" id="botao">
                 Enviar

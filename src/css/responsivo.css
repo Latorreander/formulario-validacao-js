@@ -21,6 +21,14 @@
     .formulario .texto p{
         font-size: 12px;
     }
+
+    .formulario .dados-pessoais .botao-enviar {
+        font-size: 10px;
+    }
+
+    .formulario .dados-pessoais .legenda{
+        font-size: 12px;
+    }
 }
 
 @media(max-width: 400px){
@@ -30,5 +38,13 @@
 
     .formulario{
         padding: 5px
+    }
+
+    .formulario .texto h1{
+        font-size: 18px;
+    }
+
+    .formulario .texto p{
+        font-size: 10px;
     }
 }
